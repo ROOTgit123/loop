@@ -17,7 +17,8 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+    - uses: actions/checkout@v3.2.0
     - name: Initializing Setup
       run: ./setup.ps1
     - name: Starting CRD 
