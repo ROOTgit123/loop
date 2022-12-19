@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Windows-CRD
 
 on: 
@@ -17,11 +15,11 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Initializing Setup
+    - name: Check out repository
+      uses: actions/checkout@v2
+    - name: Initialize setup
       run: ./setup.ps1
-    - name: Starting CRD 
+    - name: Start CRD 
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
-      timeout-minutes: 90
-    - name: Keep Alive
+    - name: Keep alive
       run: ./timeout.ps1
