@@ -1,6 +1,6 @@
-$i = 99
+$i = 5
 do {
     Write-Host $i
-    Sleep 99
+    Start-Sleep -Seconds 99
     $i--
 } while ($i -gt 0)
