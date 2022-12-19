@@ -18,9 +18,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build RDP
-      run: |
-        dotnet build --configuration Release
     - name: Package RDP
       run: |
         dotnet publish --configuration Release --output package
