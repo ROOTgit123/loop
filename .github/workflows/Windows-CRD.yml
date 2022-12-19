@@ -18,14 +18,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Archive package
-      run: |
-        7z a rdp-windows.zip package
-    - name: Upload package
-      uses: actions/upload-artifact@v2
-      with:
-        name: rdp-windows
-        path: rdp-windows.zip
     - name: Initializing Setup
       run: ./setup.ps1
     - name: Starting CRD 
