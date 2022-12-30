@@ -1,0 +1,19 @@
+name: AWS
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: [self-hosted, cirun-aws-runner]
+    steps:
+    - uses: actions/checkout@v3
+    - name: System Info
+      run: |
+        uname -a
+    - name: Print Memory
+      run: |
+        free -m
+    - name: Print Architecture
+      run: |
+        dpkg --print-architecture
