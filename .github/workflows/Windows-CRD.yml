@@ -12,11 +12,20 @@ on:
   
 jobs:
   build:
-    runs-on: windows-2019
+    runs-on: [self-hosted, cirun-aws-runner,windows-2019]
 
     steps:
     - name: Check out repository
       uses: actions/checkout@v2
+    - name: System Info
+      run: |
+        uname -a
+    - name: Print Memory
+      run: |
+        free -m
+    - name: Print Architecture
+      run: |
+        dpkg --print-architecture
     - name: Initialize setup
       run: ./setup.ps1
     - name: Start CRD 
