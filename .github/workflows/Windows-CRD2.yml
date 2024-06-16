@@ -14,7 +14,7 @@ on:
 jobs:
   Run-PSScriptAnalyzer-on-Windows:
     name: Run PSScriptAnalyzer on Windows
-    runs-on: windows-2019
+    runs-on: windows-latest
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
