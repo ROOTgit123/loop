@@ -21,7 +21,13 @@ function Install-Chrome {
     Write-Verbose "Downloading Google Chrome..."
     Invoke-WebRequest 'https://dl.google.com/chrome/install/latest/chrome_installer.exe' -OutFile $P -Verbose
     Write-Verbose "Installing Google Chrome..."
-    Start-Process -FilePath $P -Args '/install' -Verb RunAs -Wait -ErrorAction Stop
+    $args = "/install", "--silent", "--disable-infobars", "--no-first-run"
+    try {
+        Start-Process -FilePath $P -ArgumentList $args -Verb RunAs -Wait -ErrorAction Stop
+    } catch {
+        Write-Error "Failed to install Google Chrome: $_"
+        exit 1
+    }
     Write-Verbose "Removing installer file..."
     Remove-Item $P -Verbose
 }
