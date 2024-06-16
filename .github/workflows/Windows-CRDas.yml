@@ -13,10 +13,10 @@ on:
 jobs:
   Run-PSScriptAnalyzer-on-Windows:
     name: Run PSScriptAnalyzer on Windows
-    runs-on: windows-latest
+    runs-on: windows-2019
     steps:
     - name: Check out repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
     
     - name: Install PSScriptAnalyzer module
       shell: pwsh
@@ -31,7 +31,7 @@ jobs:
     
     - name: Initialize setup
       shell: pwsh
-      run: ./setup1.ps1
+      run: ./setup.ps1
     
     - name: Start CRD 
       shell: pwsh
