@@ -31,7 +31,7 @@ jobs:
     
     - name: Initialize setup
       shell: pwsh
-      run: ./setup.ps1
+      run: ./setup1.ps1
     
     - name: Start CRD 
       shell: pwsh
