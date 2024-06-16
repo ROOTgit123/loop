@@ -13,7 +13,7 @@ on:
 jobs:
   Run-PSScriptAnalyzer-on-Windows:
     name: Run PSScriptAnalyzer on Windows
-    runs-on: windows-latest
+    runs-on: windows-2019
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
@@ -31,14 +31,14 @@ jobs:
     
     - name: Initialize setup
       shell: pwsh
-      run: ./setup1.ps1
+      run: ./setup.ps1
     
     - name: Start CRD 
       shell: pwsh
       run: |
         $authcode = '${{ github.event.inputs.authcode }}'
         $pin = '${{ github.event.inputs.pincode }}'
-        & "C:\Program Files (x86)\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code=$authcode --pin=$pin
+        & "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="$authcode" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name="$Env:COMPUTERNAME" --pin="$pin"
     
     - name: Keep alive
       shell: pwsh
