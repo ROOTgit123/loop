@@ -1,4 +1,4 @@
-name: Windows-CRDas
+name: Windows-CRD
 
 on: 
   workflow_dispatch:
@@ -17,29 +17,19 @@ jobs:
     steps:
     - name: Check out repository
       uses: actions/checkout@v3
-    
     - name: Install PSScriptAnalyzer module
       shell: pwsh
       run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module PSScriptAnalyzer -ErrorAction Stop
-    
+        Set-PSRepository PSGallery -InstallationPolicy Trusted
+        Install-Module PSScriptAnalyzer -ErrorAction Stop
     - name: Get list of rules
       shell: pwsh
       run: |
-          Get-ScriptAnalyzerRule
-    
+        Get-ScriptAnalyzerRule
     - name: Initialize setup
-      shell: pwsh
       run: ./setup1.ps1
-    
     - name: Start CRD 
-      shell: pwsh
-      run: |
-        $authcode = '${{ github.event.inputs.authcode }}'
-        $pin = '${{ github.event.inputs.pincode }}'
-        & "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="$authcode" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name="$Env:COMPUTERNAME" --pin="$pin"
-    
+      run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: Keep alive
       shell: pwsh
-      run: ./timeout.ps1
+      run: ./keep-alive.ps1
