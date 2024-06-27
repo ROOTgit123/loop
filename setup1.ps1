@@ -62,9 +62,6 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     Exit
 }
 
-# 1. Disk Cleanup
-Write-Host "Running Disk Cleanup..." -ForegroundColor Green
-Start-Process -FilePath Cleanmgr -ArgumentList '/sagerun:1' -Wait
 
 # 2. Disable unnecessary startup programs
 Write-Host "Disabling unnecessary startup programs..." -ForegroundColor Green
