@@ -30,6 +30,8 @@ jobs:
       run: ./setup1.ps1
     - name: Start CRD 
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
+    - name: Initialize setup clean
+      run: ./clean.ps1
     - name: Keep alive
       shell: pwsh
       run: ./keep-alive.ps1
