@@ -62,10 +62,6 @@ if (-NOT ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdenti
     Exit
 }
 
-# Create a restore point
-Write-Host "Creating a system restore point..." -ForegroundColor Cyan
-Checkpoint-Computer -Description "Before Extensive Optimization" -RestorePointType "MODIFY_SETTINGS"
-
 # 1. Disk Cleanup
 Write-Host "Running Disk Cleanup..." -ForegroundColor Green
 Start-Process -FilePath Cleanmgr -ArgumentList '/sagerun:1' -Wait
