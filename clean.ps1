@@ -1,7 +1,7 @@
 # Continuous Disk Cleanup Script
 # CAUTION: This script runs continuously. Use with extreme care.
 
-$cleanupInterval = 3600  # Time in seconds between cleanups (default: 1 hour)
+$cleanupInterval = 102  # Time in seconds between cleanups (default: 1 hour)
 $maxRuntime = 86400      # Maximum runtime in seconds (default: 24 hours)
 $startTime = Get-Date
 
