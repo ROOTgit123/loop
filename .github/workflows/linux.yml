@@ -21,16 +21,14 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y xrdp xfce4 xfce4-goodies
-        sudo systemctl enable xrdp
-        sudo systemctl start xrdp
+        sudo apt-get install -y xfce4 xfce4-goodies wget
 
     - name: Initialize setup
-      run: ./setup1.sh
+      run: ./setuplinux.sh
 
     - name: Start CRD
       run: |
         ./start-crd.sh --authcode="${{ github.event.inputs.authcode }}" --pin="${{ github.event.inputs.pincode }}"
 
     - name: Keep alive
-      run: ./timeout.sh
+      run: ./timeoutlinux.sh
