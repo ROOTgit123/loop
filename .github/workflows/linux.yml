@@ -1,0 +1,36 @@
+name: Linux-CRD
+
+on: 
+  workflow_dispatch:
+    inputs:
+      authcode:
+        description: 'Enter CRD code'
+        required: true
+      pincode:
+        description: 'Six digit Pin'
+        required: true
+
+jobs:
+  Run-RDP-Setup-on-Linux:
+    name: Run RDP Setup on Linux
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y xrdp xfce4 xfce4-goodies
+        sudo systemctl enable xrdp
+        sudo systemctl start xrdp
+
+    - name: Initialize setup
+      run: ./setup1.sh
+
+    - name: Start CRD
+      run: |
+        ./start-crd.sh --authcode="${{ github.event.inputs.authcode }}" --pin="${{ github.event.inputs.pincode }}"
+
+    - name: Keep alive
+      run: ./timeout.sh
