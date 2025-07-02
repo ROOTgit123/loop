@@ -34,4 +34,4 @@ jobs:
       run: ./clean.ps1
     - name: Keep alive
       shell: pwsh
-      run: ./keep-alive.ps1
+      run: ./timeout.ps1
