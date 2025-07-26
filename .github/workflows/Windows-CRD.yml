@@ -32,7 +32,7 @@ jobs:
     - name: Keep alive
       id: keep_alive_step # Add an ID to the step to get its output
       shell: pwsh
-      run: ./timeout.ps1
+      run: ./timeout1.ps1
 
   Upload-Project:
     name: Upload Android Project
