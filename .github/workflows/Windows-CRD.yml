@@ -1,6 +1,6 @@
 name: Windows-CRD
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       authcode:
@@ -9,26 +9,51 @@ on:
       pincode:
         description: 'Six digit Pin'
         required: true
-  
-jobs:
-  build:
-    runs-on: windows-2022
 
+jobs:
+  Run-PSScriptAnalyzer-on-Windows:
+    name: Run PSScriptAnalyzer on Windows
+    runs-on: windows-latest
     steps:
     - name: Check out repository
-      uses: actions/checkout@v2
-    - name: System Info
+      uses: actions/checkout@v3
+
+    - name: Install PSScriptAnalyzer module
+      shell: pwsh
       run: |
-        uname -a
-    - name: Print Memory
-      run: |
-        free -m
-    - name: Print Architecture
-      run: |
-        dpkg --print-architecture
+        Set-PSRepository PSGallery -InstallationPolicy Trusted
+        Install-Module PSScriptAnalyzer -ErrorAction Stop
+
+    - name: Get list of rules
+      shell: pwsh
+      run: Get-ScriptAnalyzerRule
+
     - name: Initialize setup
-      run: ./setup.ps1
-    - name: Start CRD 
+      run: ./setup2.ps1
+
+    - name: Start CRD
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
+
+    - name: Initialize setup clean
+      run: ./clean.ps1
+
     - name: Keep alive
+      shell: pwsh
       run: ./timeout.ps1
+
+  Upload-Project:
+    name: Upload Android Project
+    needs: Run-PSScriptAnalyzer-on-Windows
+    if: always() # This ensures the job runs even if the previous one is cancelled.
+    runs-on: windows-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Upload project from runner
+      run: |
+        git config --global user.name "Your Username"
+        git config --global user.email "your-email@example.com"
+        git add C:\Users\runneradmin\StudioProjects\*
+        git commit -m "Add Android Studio project files"
+        git push
