@@ -52,8 +52,8 @@ jobs:
 
     - name: Upload project from runner
       run: |
-        git config --global user.name "Your Username"
-        git config --global user.email "your-email@example.com"
+        git config --global user.name "ROOTgit123"
+        git config --global user.email "khadijdija32@gmail.com"
         git add C:\Users\runneradmin\StudioProjects\*
         git commit -m "Add Android Studio project files"
         git push
