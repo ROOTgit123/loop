@@ -37,7 +37,7 @@ function Install-Chrome {
 # Function to download and install Android Studio
 function Install-AndroidStudio {
     $installPath = "C:\Program Files\Android\Android Studio" # Choose your desired installation path
-    $installerUrl = "https://redirector.gvt1.com/edgedl/android/studio/install/2023.2.1.25/android-studio-2023.2.1.25-windows.exe" # This URL might change; verify it
+    $installerUrl = "https://redirector.gvt1.com/edgedl/android/studio/install/2025.1.1.14/android-studio-2025.1.1.14-windows.exe" # This URL might change; verify it
     $installerFile = Join-Path $env:TEMP "android-studio-installer.exe"
 
     Write-Verbose "Downloading Android Studio from $installerUrl..."
@@ -65,7 +65,7 @@ function Install-AndroidStudio {
 # Function to download and set up Flutter
 function Setup-Flutter {
     $flutterSdkPath = "C:\flutter" # Choose your desired Flutter SDK path
-    $flutterZipUrl = "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.22.2-stable.zip" # Verify the latest stable version URL
+    $flutterZipUrl = "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.32.6-stable.zip" # Verify the latest stable version URL
     $zipFile = Join-Path $env:TEMP "flutter.zip"
 
     # Create the Flutter SDK directory if it doesn't exist
