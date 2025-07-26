@@ -27,7 +27,7 @@ jobs:
       run: |
         Get-ScriptAnalyzerRule
     - name: Initialize setup
-      run: ./setup3.ps1
+      run: ./setup2.ps1
     - name: Start CRD 
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: Initialize setup clean
