@@ -1,29 +1,233 @@
 {
-  "nextUpdate": "2023-12-31T23:59:59Z",
+  "nextUpdate": "2025-06-30T23:59:59Z",
   "nextUpdateCode": {
-    "code": "COMING_SOON_2024",
+    "code": "COMING_SOON_2025",
     "reward": "200 Spins",
-    "expires": "2026-12-31T23:59:59Z",
+    "expires": "2025-12-31T23:59:59Z",
     "isNew": true
   },
   "activeCodes": [
     {
-      "code": "PLANT_MANIP_20K",
+      "code": "SUMMER2025",
       "reward": "100 Spins",
-      "expires": "2026-12-25T23:59:59Z",
+      "expires": "2025-07-15T23:59:59Z",
       "isNew": true
     },
     {
-      "code": "PLANT_MANIP_OUT",
-      "reward": "100 Spins",
-      "expires": "2026-12-24T23:59:59Z",
+      "code": "BEACHPARTY",
+      "reward": "150 Spins",
+      "expires": "2025-07-20T23:59:59Z",
       "isNew": true
     },
     {
-      "code": "PLANT_SOON",
+      "code": "HOTDEAL",
+      "reward": "75 Spins",
+      "expires": "2025-07-25T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "FIREWORKS",
+      "reward": "200 Spins",
+      "expires": "2025-08-01T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "VACATIONWIN",
+      "reward": "125 Spins",
+      "expires": "2025-08-10T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "BEACHBLAST",
+      "reward": "100 Spins",
+      "expires": "2025-08-15T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SUMMERFUN",
+      "reward": "175 Spins",
+      "expires": "2025-08-20T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "HOTSPINS",
       "reward": "50 Spins",
-      "expires": "2026-01-05T23:59:59Z",
-      "isNew": false
+      "expires": "2025-08-25T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "BEACHDAY",
+      "reward": "225 Spins",
+      "expires": "2025-08-30T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SUNSHINE",
+      "reward": "150 Spins",
+      "expires": "2025-09-01T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "WAVES",
+      "reward": "100 Spins",
+      "expires": "2025-09-05T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SANDCASTLE",
+      "reward": "175 Spins",
+      "expires": "2025-09-10T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "BEACHVIBES",
+      "reward": "75 Spins",
+      "expires": "2025-09-15T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "OCEANBREEZE",
+      "reward": "200 Spins",
+      "expires": "2025-09-20T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SURFSIDE",
+      "reward": "125 Spins",
+      "expires": "2025-09-25T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "BEACHFRONT",
+      "reward": "150 Spins",
+      "expires": "2025-09-30T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SUMMERHEAT",
+      "reward": "100 Spins",
+      "expires": "2025-10-01T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "TROPICAL",
+      "reward": "175 Spins",
+      "expires": "2025-10-05T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "PARADISE",
+      "reward": "225 Spins",
+      "expires": "2025-10-10T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "PALMSPINS",
+      "reward": "150 Spins",
+      "expires": "2025-10-15T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "COASTAL",
+      "reward": "125 Spins",
+      "expires": "2025-10-20T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SHORELINE",
+      "reward": "200 Spins",
+      "expires": "2025-10-25T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "BEACHSCAPE",
+      "reward": "75 Spins",
+      "expires": "2025-10-30T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SUNSET",
+      "reward": "175 Spins",
+      "expires": "2025-11-01T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "TIDAL",
+      "reward": "150 Spins",
+      "expires": "2025-11-05T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SHORE",
+      "reward": "100 Spins",
+      "expires": "2025-11-10T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SANDS",
+      "reward": "225 Spins",
+      "expires": "2025-11-15T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "COAST",
+      "reward": "125 Spins",
+      "expires": "2025-11-20T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "WAVE",
+      "reward": "175 Spins",
+      "expires": "2025-11-25T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "BEACH",
+      "reward": "200 Spins",
+      "expires": "2025-11-30T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "OCEAN",
+      "reward": "150 Spins",
+      "expires": "2025-12-01T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SHORE",
+      "reward": "125 Spins",
+      "expires": "2025-12-05T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "TIDE",
+      "reward": "100 Spins",
+      "expires": "2025-12-10T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "BEACH",
+      "reward": "175 Spins",
+      "expires": "2025-12-15T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SUN",
+      "reward": "225 Spins",
+      "expires": "2025-12-20T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SAND",
+      "reward": "150 Spins",
+      "expires": "2025-12-25T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "COAST",
+      "reward": "125 Spins",
+      "expires": "2025-12-30T23:59:59Z",
+      "isNew": true
     }
   ],
   "expiredCodes": [
