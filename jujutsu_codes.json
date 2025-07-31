@@ -3,26 +3,26 @@
   "nextUpdateCode": {
     "code": "COMING_SOON_2024",
     "reward": "200 Spins",
-    "expires": "2023-12-31T23:59:59Z",
+    "expires": "2026-12-31T23:59:59Z",
     "isNew": true
   },
   "activeCodes": [
     {
       "code": "PLANT_MANIP_20K",
       "reward": "100 Spins",
-      "expires": "2023-12-25T23:59:59Z",
+      "expires": "2026-12-25T23:59:59Z",
       "isNew": true
     },
     {
       "code": "PLANT_MANIP_OUT",
       "reward": "100 Spins",
-      "expires": "2023-12-24T23:59:59Z",
+      "expires": "2026-12-24T23:59:59Z",
       "isNew": true
     },
     {
       "code": "PLANT_SOON",
       "reward": "50 Spins",
-      "expires": "2024-01-05T23:59:59Z",
+      "expires": "2026-01-05T23:59:59Z",
       "isNew": false
     }
   ],
