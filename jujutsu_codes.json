@@ -1,0 +1,46 @@
+{
+  "nextUpdate": "2023-12-31T23:59:59Z",
+  "nextUpdateCode": {
+    "code": "COMING_SOON_2024",
+    "reward": "200 Spins",
+    "expires": "2023-12-31T23:59:59Z",
+    "isNew": true
+  },
+  "activeCodes": [
+    {
+      "code": "PLANT_MANIP_20K",
+      "reward": "100 Spins",
+      "expires": "2023-12-25T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "PLANT_MANIP_OUT",
+      "reward": "100 Spins",
+      "expires": "2023-12-24T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "PLANT_SOON",
+      "reward": "50 Spins",
+      "expires": "2024-01-05T23:59:59Z",
+      "isNew": false
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "JUJUTSU_KAISEN",
+      "reward": "75 Spins",
+      "expired": "2023-12-20T23:59:59Z"
+    },
+    {
+      "code": "GOJO_SATORU",
+      "reward": "50 Spins",
+      "expired": "2023-12-15T23:59:59Z"
+    },
+    {
+      "code": "SUKUNA_DOMAIN",
+      "reward": "100 Spins",
+      "expired": "2023-12-10T23:59:59Z"
+    }
+  ]
+}
