@@ -9,33 +9,33 @@
   "activeCodes": [
     {
       "code": "JJKPPHALFANNI",
-      "reward": "Magnificent Spectral Boat Gacha Phase",
+      "reward": "Magnificent Spectral",
       "expires": "2025-08-31T23:59:59Z",
       "isNew": true
     },
     {
       "code": "PHANPARA2025",
-      "reward": "100k Beacon of Training and",
+      "reward": "100k Beacon",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "Hello2025",
-      "reward": "1 Phantom Parade Gacha Tickets,",
+      "reward": "1 Phantom",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "JJKPPGIFT2024",
-      "reward": "2 Phantom Parade Gacha Tickets,",
+      "reward": "2 Phantom",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "JJK777",
-      "reward": "20k Beacons of training",
+      "reward": "20k Beacons",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "PLANT_MANIP_20K",
@@ -59,95 +59,95 @@
       "code": "SOUL_REWORK_OUT",
       "reward": "100 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "SKILLS_SORRY",
       "reward": "50 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "SOUL_20K",
       "reward": "100 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "SOUL_SOON_REWORK",
       "reward": "50 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "PROJECTION_20K",
       "reward": "100 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "PROJECTION_OUT",
       "reward": "100 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "PROJECTION_SOON",
       "reward": "50 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "THUNDER_GOD",
       "reward": "100 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "20K_FOLLOW_THUNDR",
       "reward": "100 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "THUNDER_SOON",
       "reward": "50 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "MECH_SHUTDOWN",
       "reward": "30 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "MECH_MAX",
       "reward": "150 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "MECH_SOON",
       "reward": "25 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "ANCIENT_CONSTRUCT",
       "reward": "25 Spins",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "NewYearr",
-      "reward": "30 Clan Spins",
+      "reward": "30 Clan",
       "expires": "2025-08-31T23:59:59Z",
       "isNew": true
     },
     {
       "code": "2025",
-      "reward": "30 Race Spins",
+      "reward": "30 Race",
       "expires": "2025-08-31T23:59:59Z",
       "isNew": true
     },
@@ -159,146 +159,146 @@
     },
     {
       "code": "Christmas1",
-      "reward": "30 Clan Spins",
+      "reward": "30 Clan",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "Srry3OTherWeeksnoupd",
-      "reward": "15 Clan Spins",
+      "reward": "15 Clan",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "Christmas2",
-      "reward": "30 Race Spins",
+      "reward": "30 Race",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "GiftFromTheOwner",
-      "reward": "15 Race Spins",
+      "reward": "15 Race",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "THESTRONGESTCURSE",
-      "reward": "20 min x2 EXP",
+      "reward": "20 min",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "THEHONOREDONE",
-      "reward": "20 min x2 EXP",
+      "reward": "20 min",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "110KLIKESWOW",
-      "reward": "15 min x2 EXP",
+      "reward": "15 min",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "12MVisits",
       "reward": "Stats Reset",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "120KHearts",
       "reward": "Stats Reset",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "JJPCHRISTMAS",
       "reward": "Stats Reset",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "JJK666",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "JK6666",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "Battle999",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "CS461",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "CS724",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "Fans101",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "Fans304",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "discord40k",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "FANS10000",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "discord30k",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "GPDISCORD20K",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "DISCORD0725",
-      "reward": "Gold, Diamonds, Ascension Materials",
+      "reward": "Gold, Diamonds,",
       "expires": "2025-08-31T23:59:59Z",
-      "isNew": false
+      "isNew": true
     }
   ],
   "expiredCodes": [
     {
       "code": "HalfAnniCD1",
-      "reward": "100k Beacon of Training and",
+      "reward": "100k Beacon",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "HalfAnniCD2",
-      "reward": "100k Beacon of Training and",
+      "reward": "100k Beacon",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -308,12 +308,12 @@
     },
     {
       "code": "JJKPPJoyAhead",
-      "reward": "10k Beacon of Recollection Bits",
+      "reward": "10k Beacon",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "JJKPPSTART",
-      "reward": "100k Beacon of Training and",
+      "reward": "100k Beacon",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -323,12 +323,12 @@
     },
     {
       "code": "NEWYEAR",
-      "reward": "AP Supplementary Pack and x100k",
+      "reward": "AP Supplementary",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "JJKPPWINTER",
-      "reward": "AP Supplementary Pack and a",
+      "reward": "AP Supplementary",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -343,12 +343,12 @@
     },
     {
       "code": "JJKPPSorcerer",
-      "reward": "Beacon of Training 20K",
+      "reward": "Beacon of",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "JJKPPSPECIAL",
-      "reward": "Beacon of Recollection Bits 10K",
+      "reward": "Beacon of",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -358,17 +358,17 @@
     },
     {
       "code": "JJKPPDomEx",
-      "reward": "AP Supplementary Pack",
+      "reward": "AP Supplementary",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "JJKCODE",
-      "reward": "Beacon of Recollection Bits 10K,",
+      "reward": "Beacon of",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "JJKGIFT",
-      "reward": "AP Supplementary Pack",
+      "reward": "AP Supplementary",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
