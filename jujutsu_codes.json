@@ -9,25 +9,25 @@
   "activeCodes": [
     {
       "code": "JJKPPHALFANNI",
-      "reward": "Magnificent Spectral Boat Gacha Phase 1 Ticket, AP Supplementary Pack, and 50K Beacon of Training",
+      "reward": "Magnificent Spectral Boat Gacha Phase",
       "expires": "2025-08-31T23:59:59Z",
       "isNew": true
     },
     {
       "code": "PHANPARA2025",
-      "reward": "100k Beacon of Training and AP Supplementary Pack",
+      "reward": "100k Beacon of Training and",
       "expires": "2025-08-31T23:59:59Z",
       "isNew": false
     },
     {
       "code": "Hello2025",
-      "reward": "1 Phantom Parade Gacha Tickets, 1 AP Supplementary Pack",
+      "reward": "1 Phantom Parade Gacha Tickets,",
       "expires": "2025-08-31T23:59:59Z",
       "isNew": false
     },
     {
       "code": "JJKPPGIFT2024",
-      "reward": "2 Phantom Parade Gacha Tickets, 1 AP Supplementary Pack",
+      "reward": "2 Phantom Parade Gacha Tickets,",
       "expires": "2025-08-31T23:59:59Z",
       "isNew": false
     },
@@ -293,12 +293,12 @@
   "expiredCodes": [
     {
       "code": "HalfAnniCD1",
-      "reward": "100k Beacon of Training and a Featured Gacha Ticket",
+      "reward": "100k Beacon of Training and",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "HalfAnniCD2",
-      "reward": "100k Beacon of Training and a Featured Gacha Ticket",
+      "reward": "100k Beacon of Training and",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -308,12 +308,12 @@
     },
     {
       "code": "JJKPPJoyAhead",
-      "reward": "10k Beacon of Recollection Bits and a Gacha Ticket",
+      "reward": "10k Beacon of Recollection Bits",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "JJKPPSTART",
-      "reward": "100k Beacon of Training and a Gacha Ticket",
+      "reward": "100k Beacon of Training and",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -323,12 +323,12 @@
     },
     {
       "code": "NEWYEAR",
-      "reward": "AP Supplementary Pack and x100k Beacon of Training",
+      "reward": "AP Supplementary Pack and x100k",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
       "code": "JJKPPWINTER",
-      "reward": "AP Supplementary Pack and a Gacha Ticket",
+      "reward": "AP Supplementary Pack and a",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -363,7 +363,7 @@
     },
     {
       "code": "JJKCODE",
-      "reward": "Beacon of Recollection Bits 10K, JP 10K",
+      "reward": "Beacon of Recollection Bits 10K,",
       "expired": "2025-07-31T23:59:59Z"
     },
     {
@@ -783,4 +783,3 @@
     }
   ]
 }
-
