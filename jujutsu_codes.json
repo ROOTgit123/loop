@@ -23,19 +23,19 @@
       "code": "MORESPINS",
       "reward": "50 Spins",
       "expires": "2025-08-25T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "ANOTHERFIX",
       "reward": "25 Spins",
       "expires": "2025-08-20T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "GAMEMODES",
       "reward": "80 Spins",
       "expires": "2025-08-18T23:59:59Z",
-      "isNew": false
+      "isNew": true
     },
     {
       "code": "PLANT_MANIP_20K",
