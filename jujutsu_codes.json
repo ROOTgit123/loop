@@ -37,7 +37,7 @@
       "expires": "2025-08-18T23:59:59Z",
       "isNew": false
     },
-            {
+    {
       "code": "PLANT_MANIP_20K",
       "reward": "100 Spins",
       "expires": "2025-08-31T23:59:59Z",
@@ -139,7 +139,7 @@
       "expires": "2025-08-31T23:59:59Z",
       "isNew": true
     },
-        {
+    {
       "code": "JJKPPHALFANNI",
       "reward": "Magnificent Spectral",
       "expires": "2025-08-31T23:59:59Z",
@@ -169,7 +169,6 @@
       "expires": "2025-08-31T23:59:59Z",
       "isNew": true
     },
-
     {
       "code": "NewYearr",
       "reward": "30 Clan",
@@ -516,7 +515,6 @@
       "code": "RELEASE",
       "reward": "50 Spins",
       "expired": "2023-07-01T23:59:59Z"
-    },
-
+    }
   ]
 }
