@@ -1,32 +1,33 @@
-name: Test UDP Server
+name: UDP Server Run
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:  # manual trigger
 
 jobs:
-  test-udp:
+  udp-runner:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: List files for debug
-        run: ls -l
-
-      - name: Setup Python 3.11
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Run UDP server in background
+      - name: Show runner public IP
+        run: curl ifconfig.me
+
+      - name: Start UDP server in background
         run: |
           python udp_server.py &
-          sleep 2
+          sleep 2  # allow server to start
 
       - name: Run UDP client test
         run: python udp_client.py
 
-      - name: Kill UDP server
-        run: pkill -f udp_server.py || true
+      - name: Keep server running (sleep infinite)
+        run: |
+          echo "UDP server started, runner will stay alive..."
+          sleep infinity
