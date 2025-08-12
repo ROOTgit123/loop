@@ -1,13 +1,14 @@
 import socket
 
-UDP_IP = "0.0.0.0"  # Listen on all interfaces
+UDP_IP = "0.0.0.0"
 UDP_PORT = 5005
 
-# Simple user:pass dictionary
 VALID_USERS = {
     "user": "pass",
     "admin": "admin123"
 }
+
+connected_clients = {}
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((UDP_IP, UDP_PORT))
@@ -18,7 +19,6 @@ while True:
     message = data.decode("utf-8").strip()
     print(f"Received message: {message} from {addr}")
 
-    # Parse message in form: "id:123@user:pass your message here"
     try:
         header, _, payload = message.partition(' ')
         if '@' not in header or ':' not in header:
@@ -28,6 +28,7 @@ while True:
         user, passwd = auth_part.split(':', 1)
 
         if VALID_USERS.get(user) == passwd:
+            connected_clients[id_part] = (user, addr[0], addr[1])
             response = f"Authorized - ID:{id_part} Payload:{payload}"
         else:
             response = "Unauthorized"
@@ -36,3 +37,4 @@ while True:
 
     sock.sendto(response.encode(), addr)
     print(f"Sent back: {response} to {addr}")
+    print(f"Connected clients: {connected_clients}")
