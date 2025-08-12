@@ -1,21 +1,15 @@
 name: Test UDP Server
 
-on:
-  push:
-  pull_request:
+on: [push, pull_request]
 
 jobs:
   test-udp:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: List files (debug)
-        run: ls -l
-
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
@@ -23,10 +17,12 @@ jobs:
       - name: Run UDP server in background
         run: |
           python udp_server.py &
-          sleep 2  # give server time to start
+          sleep 1  # wait for server to start
 
       - name: Run UDP client test
-        run: python udp_client.py
+        run: |
+          python udp_client.py
 
       - name: Kill UDP server
-        run: pkill -f udp_server.py || true
+        run: |
+          pkill -f udp_server.py || true
