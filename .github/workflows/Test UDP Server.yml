@@ -1,0 +1,32 @@
+name: Test UDP Server
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-udp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: List files for debug
+        run: ls -l
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Run UDP server in background
+        run: |
+          python udp_server.py &
+          sleep 2
+
+      - name: Run UDP client test
+        run: python udp_client.py
+
+      - name: Kill UDP server
+        run: pkill -f udp_server.py || true
