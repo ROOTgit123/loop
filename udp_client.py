@@ -1,7 +1,7 @@
 import socket
 
 UDP_IP = "0.0.0.0"
-UDP_PORT = 5005
+UDP_PORT = 5005 
 
 # Simple user:pass dictionary
 VALID_USERS = {
