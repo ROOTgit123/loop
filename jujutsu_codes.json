@@ -1,520 +1,153 @@
 {
-  "nextUpdate": "2025-08-31T23:59:59Z",
+  "nextUpdate": "2025-10-31T23:59:59Z",
   "nextUpdateCode": {
-    "code": "LABORDAY2025",
-    "reward": "100 Spins",
-    "expires": "2025-09-10T23:59:59Z",
+    "code": "HALLOWEEN2025",
+    "reward": "150 Spins",
+    "expires": "2025-11-07T23:59:59Z",
     "isNew": true
   },
   "activeCodes": [
     {
-      "code": "1MFAVORITES",
+      "code": "FALL2025",
+      "reward": "100 Spins",
+      "expires": "2025-10-15T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "900KLIKES",
+      "reward": "90 Spins",
+      "expires": "2025-10-20T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "UPDATE8_5",
+      "reward": "125 Spins",
+      "expires": "2025-10-10T23:59:59Z",
+      "isNew": true
+    },
+    {
+      "code": "SORRY4DELAY",
       "reward": "150 Spins",
-      "expires": "2025-09-15T23:59:59Z",
+      "expires": "2025-10-05T23:59:59Z",
       "isNew": true
     },
     {
-      "code": "SUMMERENDS",
-      "reward": "75 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "MORESPINS",
-      "reward": "50 Spins",
-      "expires": "2025-08-25T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "ANOTHERFIX",
-      "reward": "25 Spins",
-      "expires": "2025-08-20T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "GAMEMODES",
-      "reward": "80 Spins",
-      "expires": "2025-08-18T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "PLANT_MANIP_20K",
+      "code": "LABORDAY2025",
       "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "PLANT_MANIP_OUT",
-      "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "PLANT_SOON",
-      "reward": "50 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "SOUL_REWORK_OUT",
-      "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "SKILLS_SORRY",
-      "reward": "50 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "SOUL_20K",
-      "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "SOUL_SOON_REWORK",
-      "reward": "50 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "PROJECTION_20K",
-      "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "PROJECTION_OUT",
-      "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "PROJECTION_SOON",
-      "reward": "50 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "THUNDER_GOD",
-      "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "20K_FOLLOW_THUNDR",
-      "reward": "100 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "THUNDER_SOON",
-      "reward": "50 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "MECH_SHUTDOWN",
-      "reward": "30 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "MECH_MAX",
-      "reward": "150 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "MECH_SOON",
-      "reward": "25 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "ANCIENT_CONSTRUCT",
-      "reward": "25 Spins",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "JJKPPHALFANNI",
-      "reward": "Magnificent Spectral",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "PHANPARA2025",
-      "reward": "100k Beacon",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Hello2025",
-      "reward": "1 Phantom",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "JJKPPGIFT2024",
-      "reward": "2 Phantom",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "JJK777",
-      "reward": "20k Beacons",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "NewYearr",
-      "reward": "30 Clan",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "2025",
-      "reward": "30 Race",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Bye2024",
-      "reward": "Stats Reset",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Christmas1",
-      "reward": "30 Clan",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Srry3OTherWeeksnoupd",
-      "reward": "15 Clan",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Christmas2",
-      "reward": "30 Race",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "GiftFromTheOwner",
-      "reward": "15 Race",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "THESTRONGESTCURSE",
-      "reward": "20 min",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "THEHONOREDONE",
-      "reward": "20 min",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "110KLIKESWOW",
-      "reward": "15 min",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "12MVisits",
-      "reward": "Stats Reset",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "120KHearts",
-      "reward": "Stats Reset",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "JJPCHRISTMAS",
-      "reward": "Stats Reset",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "JJK666",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "JK6666",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Battle999",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "CS461",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "CS724",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Fans101",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "Fans304",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "discord40k",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "FANS10000",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "discord30k",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "GPDISCORD20K",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
-    },
-    {
-      "code": "DISCORD0725",
-      "reward": "Gold, Diamonds,",
-      "expires": "2025-08-31T23:59:59Z",
-      "isNew": true
+      "expires": "2025-09-30T23:59:59Z",
+      "isNew": false
     }
   ],
   "expiredCodes": [
     {
-      "code": "SUMMER2025",
-      "reward": "100 Spins",
-      "expired": "2025-07-15T23:59:59Z"
-    },
-    {
-      "code": "BEACHPARTY",
+      "code": "1MFAVORITES",
       "reward": "150 Spins",
-      "expired": "2025-07-20T23:59:59Z"
+      "expired": "2025-09-15T23:59:59Z"
     },
     {
-      "code": "HOTDEAL",
+      "code": "SUMMERENDS",
       "reward": "75 Spins",
-      "expired": "2025-07-25T23:59:59Z"
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "UPDATE7",
+      "code": "PLANT_MANIP_20K",
       "reward": "100 Spins",
-      "expired": "2025-06-30T23:59:59Z"
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "2MVISITS",
+      "code": "PLANT_MANIP_OUT",
       "reward": "100 Spins",
-      "expired": "2025-06-15T23:59:59Z"
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "SORRYSHUTDOWN",
-      "reward": "200 Spins",
-      "expired": "2025-05-20T23:59:59Z"
-    },
-    {
-      "code": "SPRINGCLEAN",
+      "code": "PLANT_SOON",
       "reward": "50 Spins",
-      "expired": "2025-05-01T23:59:59Z"
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "APRILSPINS",
-      "reward": "60 Spins",
-      "expired": "2025-04-30T23:59:59Z"
+      "code": "SOUL_REWORK_OUT",
+      "reward": "100 Spins",
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "MOREFIXES",
+      "code": "SKILLS_SORRY",
+      "reward": "50 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "SOUL_20K",
+      "reward": "100 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "SOUL_SOON_REWORK",
+      "reward": "50 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "PROJECTION_20K",
+      "reward": "100 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "PROJECTION_OUT",
+      "reward": "100 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "PROJECTION_SOON",
+      "reward": "50 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "THUNDER_GOD",
+      "reward": "100 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "20K_FOLLOW_THUNDR",
+      "reward": "100 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "THUNDER_SOON",
+      "reward": "50 Spins",
+      "expired": "2025-08-31T23:59:59Z"
+    },
+    {
+      "code": "MECH_SHUTDOWN",
       "reward": "30 Spins",
-      "expired": "2025-03-10T23:59:59Z"
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "VALENTINES2025",
-      "reward": "125 Spins",
-      "expired": "2025-02-20T23:59:59Z"
-    },
-    {
-      "code": "800KLIKES",
-      "reward": "80 Spins",
-      "expired": "2025-02-01T23:59:59Z"
-    },
-    {
-      "code": "NEWYEAR2025",
+      "code": "MECH_MAX",
       "reward": "150 Spins",
-      "expired": "2025-01-10T23:59:59Z"
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "WINTERSPINS",
-      "reward": "100 Spins",
-      "expired": "2024-12-31T23:59:59Z"
+      "code": "MECH_SOON",
+      "reward": "25 Spins",
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "CHRISTMAS2024",
-      "reward": "200 Spins",
-      "expired": "2024-12-28T23:59:59Z"
+      "code": "ANCIENT_CONSTRUCT",
+      "reward": "25 Spins",
+      "expired": "2025-08-31T23:59:59Z"
     },
     {
-      "code": "UPDATE6",
-      "reward": "75 Spins",
-      "expired": "2024-12-05T23:59:59Z"
-    },
-    {
-      "code": "THANKFUL",
+      "code": "MORESPINS",
       "reward": "50 Spins",
-      "expired": "2024-11-30T23:59:59Z"
+      "expired": "2025-08-25T23:59:59Z"
     },
     {
-      "code": "HALLOWEEN2024",
-      "reward": "100 Spins",
-      "expired": "2024-11-05T23:59:59Z"
+      "code": "ANOTHERFIX",
+      "reward": "25 Spins",
+      "expired": "2025-08-20T23:59:59Z"
     },
     {
-      "code": "SPOOKY",
-      "reward": "50 Spins",
-      "expired": "2024-10-31T23:59:59Z"
-    },
-    {
-      "code": "600KLIKES",
-      "reward": "60 Spins",
-      "expired": "2024-10-01T23:59:59Z"
-    },
-    {
-      "code": "UPDATE5",
-      "reward": "100 Spins",
-      "expired": "2024-09-15T23:59:59Z"
-    },
-    {
-      "code": "1MVISITS",
-      "reward": "100 Spins",
-      "expired": "2024-08-20T23:59:59Z"
-    },
-    {
-      "code": "FIXDELAY",
-      "reward": "150 Spins",
-      "expired": "2024-07-22T23:59:59Z"
-    },
-    {
-      "code": "400KLIKES",
-      "reward": "40 Spins",
-      "expired": "2024-07-01T23:59:59Z"
-    },
-    {
-      "code": "UPDATE4",
+      "code": "GAMEMODES",
       "reward": "80 Spins",
-      "expired": "2024-06-10T23:59:59Z"
-    },
-    {
-      "code": "250KLIKES",
-      "reward": "50 Spins",
-      "expired": "2024-04-15T23:59:59Z"
-    },
-    {
-      "code": "UPDATE3",
-      "reward": "75 Spins",
-      "expired": "2024-03-01T23:59:59Z"
-    },
-    {
-      "code": "150KLIKES",
-      "reward": "30 Spins",
-      "expired": "2024-02-01T23:59:59Z"
-    },
-    {
-      "code": "TOJI",
-      "reward": "25 Spins",
-      "expired": "2024-01-20T23:59:59Z"
-    },
-    {
-      "code": "NEWYEAR2024",
-      "reward": "100 Spins",
-      "expired": "2024-01-10T23:59:59Z"
-    },
-    {
-      "code": "JUJUTSU_KAISEN",
-      "reward": "75 Spins",
-      "expired": "2023-12-20T23:59:59Z"
-    },
-    {
-      "code": "GOJO_SATORU",
-      "reward": "50 Spins",
-      "expired": "2023-12-15T23:59:59Z"
-    },
-    {
-      "code": "SUKUNA_DOMAIN",
-      "reward": "100 Spins",
-      "expired": "2023-12-10T23:59:59Z"
-    },
-    {
-      "code": "100KLIKES",
-      "reward": "100 Spins",
-      "expired": "2023-11-30T23:59:59Z"
-    },
-    {
-      "code": "UPDATE2",
-      "reward": "50 Spins",
-      "expired": "2023-11-15T23:59:59Z"
-    },
-    {
-      "code": "50KLIKES",
-      "reward": "50 Spins",
-      "expired": "2023-10-01T23:59:59Z"
-    },
-    {
-      "code": "25KLIKES",
-      "reward": "25 Spins",
-      "expired": "2023-09-01T23:59:59Z"
-    },
-    {
-      "code": "UPDATE1",
-      "reward": "50 Spins",
-      "expired": "2023-08-15T23:59:59Z"
-    },
-    {
-      "code": "10KLIKES",
-      "reward": "20 Spins",
-      "expired": "2023-07-20T23:59:59Z"
-    },
-    {
-      "code": "RELEASE",
-      "reward": "50 Spins",
-      "expired": "2023-07-01T23:59:59Z"
+      "expired": "2025-08-18T23:59:59Z"
     }
   ]
 }
