@@ -1,4 +1,4 @@
-name: Windows-CRD
+name: Windows-CRDas
 
 on: 
   workflow_dispatch:
