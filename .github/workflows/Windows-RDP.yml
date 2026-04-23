@@ -1,0 +1,35 @@
+name: Windows-Direct-Transfer
+on:
+  workflow_dispatch:
+    inputs:
+      iteration:
+        default: '1'
+jobs:
+  run-rdp:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Setup Tailscale
+      shell: pwsh
+      env:
+        TS_KEY: ${{ secrets.TAILSCALE_KEY }}
+      run: |
+        Invoke-WebRequest https://pkgs.tailscale.com/stable/tailscale-setup-latest.exe -OutFile ts.exe
+        Start-Process -FilePath .\ts.exe -ArgumentList "/quiet", "/norestart" -Wait
+        & "C:\Program Files\Tailscale\tailscale.exe" up --authkey=$TS_KEY --hostname="rdp-${{ github.event.inputs.iteration }}"
+    - name: Prepare Receiver (New RDP only)
+      shell: pwsh
+      run: |
+        # Open Folder for Sharing
+        $dir = "C:\Transfer"
+        if (!(Test-Path $dir)) { New-Item -ItemType Directory -Path $dir }
+        net share Data=$dir /grant:everyone,FULL
+        net user runneradmin YourPassword123! /add
+        net localgroup administrators runneradmin /add
+    - name: Run Logic
+      shell: pwsh
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+        ITERATION: ${{ github.event.inputs.iteration }}
+      run: ./direct_sync.ps1
