@@ -3,31 +3,60 @@ on:
   workflow_dispatch:
     inputs:
       iteration:
+        description: 'Loop Count (Do not change manually)'
         default: '1'
+        required: false
+
 jobs:
   run-rdp:
     runs-on: windows-latest
     steps:
-    - name: Checkout
+    - name: Checkout Code
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GH_PAT }}
+
     - name: Setup Tailscale
       shell: pwsh
       env:
         TS_KEY: ${{ secrets.TAILSCALE_KEY }}
       run: |
+        # 1. Download Tailscale
+        Write-Host "Downloading Tailscale..."
         Invoke-WebRequest https://pkgs.tailscale.com/stable/tailscale-setup-latest.exe -OutFile ts.exe
+        
+        # 2. Install quietly
+        Write-Host "Installing Tailscale..."
         Start-Process -FilePath .\ts.exe -ArgumentList "/quiet", "/norestart" -Wait
-        & "C:\Program Files\Tailscale\tailscale.exe" up --authkey=$TS_KEY --hostname="rdp-${{ github.event.inputs.iteration }}"
-    - name: Prepare Receiver (New RDP only)
+        
+        # 3. Wait for Service to start
+        Start-Sleep -Seconds 10
+        
+        # 4. Login with Key (Unattended mode prevents the login link hang)
+        Write-Host "Authenticating with Tailscale..."
+        & "C:\Program Files\Tailscale\tailscale.exe" up --authkey="$env:TS_KEY" --hostname="rdp-${{ github.event.inputs.iteration }}" --accept-dns=false --unattended
+        
+        Write-Host "Tailscale is Online!"
+
+    - name: Enable RDP & Shared Folder
       shell: pwsh
       run: |
-        # Open Folder for Sharing
+        Write-Host "Configuring Windows RDP settings..."
+        # Set Password for the runneradmin user
+        net user runneradmin YourPassword123! /add
+        net localgroup administrators runneradmin /add
+        
+        # Enable Remote Desktop in Registry
+        Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -Value 0
+        Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+        
+        # Create and Share the Transfer folder
         $dir = "C:\Transfer"
         if (!(Test-Path $dir)) { New-Item -ItemType Directory -Path $dir }
         net share Data=$dir /grant:everyone,FULL
-        net user runneradmin YourPassword123! /add
-        net localgroup administrators runneradmin /add
-    - name: Run Logic
+        Write-Host "C:\Transfer is now shared for the next RDP."
+
+    - name: Run Handover Logic
       shell: pwsh
       env:
         GH_PAT: ${{ secrets.GH_PAT }}
